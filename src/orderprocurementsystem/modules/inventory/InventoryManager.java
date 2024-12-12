@@ -71,9 +71,13 @@ private void listSuppliers() {
     }
 
     System.out.println("\n=== Supplier List ===");
+    System.out.println("Code\tName\tAddress");
+    System.out.println("------------------------");
     for (Supplier supplier : suppliers) {
-        System.out.println("\n" + supplier.toString());
-        System.out.println("------------------------");
+        System.out.printf("%s\t%s\t%s%n", 
+            supplier.getSupplierCode(), 
+            supplier.getSupplierName(), 
+            supplier.getSupplierAddress());
     }
 }
 

@@ -75,7 +75,7 @@ public class Item {
                            "Supplier Code: %s\n" +
                            "Current Stock: %d\n" +
                            "Reorder Level: %d\n" +
-                           "Unit Price: %.2f\n" +
+                           "Unit Price: %.2f\n",
                            itemCode, itemName, supplierCode, currentStock, 
                            reorderLevel, unitPrice);
     }

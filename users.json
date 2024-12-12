@@ -4,5 +4,11 @@
     "userName": "Administrator",
     "password": "admin123",
     "userType": "Admin"
+  },
+  {
+    "userId": "IM01",
+    "userName": "Amir",
+    "password": "amir123",
+    "userType": "IM"
   }
 ]

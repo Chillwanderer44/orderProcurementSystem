@@ -69,9 +69,7 @@ public class Supplier {
     public String toString(){
         return String.format("Supplier Code: %s\n" +
                            "Name: %s\n" +
-                           "Address: %s\n" +
-                           "Items Supplied: %s",
-                           supplierCode, supplierName, supplierAddress, 
-                           String.join(", ", itemCodes));
+                           "Address: %s\n",
+                           supplierCode, supplierName, supplierAddress);
     }
     }
