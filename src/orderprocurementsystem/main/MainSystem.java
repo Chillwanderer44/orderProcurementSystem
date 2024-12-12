@@ -63,23 +63,23 @@ public class MainSystem {
         }
         case "SM" -> {
             // Show Sales Manager menu when implemented
-            InventoryManager inventoryManager = new InventoryManager();
-            inventoryManager.showInventoryManagerMenu();
+            System.out.println("Coming soon");
             
         }
         case "PM" -> {
             // Show Purchase Manager menu when implemented
-            System.out.println("Purchase Manager menu coming soon");
+            System.out.println("Coming soon");
         }
         case "IM" -> {
             // Show Inventory Manager menu when implemented
-            System.out.println("Inventory Manager menu coming soon");
+            InventoryManager inventoryManager = new InventoryManager();
+            inventoryManager.showInventoryManagerMenu();
         }
         case "FM" -> {
             // Show Finance Manager menu when implemented
-            System.out.println("Finance Manager menu coming soon");
+            System.out.println("Coming soon");
         }
-        default -> System.out.println("Invalid user type!");
+        default -> System.out.println("Invalid");
     }
     }
     public static void main(String[] args){
