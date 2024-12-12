@@ -7,6 +7,7 @@ package orderprocurementsystem.main;
 import java.util.Scanner;
 import orderprocurementsystem.auth.LoginSystem;
 import orderprocurementsystem.models.User;
+import orderprocurementsystem.modules.inventory.InventoryManager;
 import orderprocurementsystem.modules.admin.AdminManager;
 
 /**
@@ -62,7 +63,9 @@ public class MainSystem {
         }
         case "SM" -> {
             // Show Sales Manager menu when implemented
-            System.out.println("Sales Manager menu coming soon");
+            InventoryManager inventoryManager = new InventoryManager();
+            inventoryManager.showInventoryManagerMenu();
+            
         }
         case "PM" -> {
             // Show Purchase Manager menu when implemented
