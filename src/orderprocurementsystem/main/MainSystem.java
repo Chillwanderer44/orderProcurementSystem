@@ -9,6 +9,9 @@ import orderprocurementsystem.auth.LoginSystem;
 import orderprocurementsystem.models.User;
 import orderprocurementsystem.modules.inventory.InventoryManager;
 import orderprocurementsystem.modules.admin.AdminManager;
+import orderprocurementsystem.modules.sales.SalesManager;
+import orderprocurementsystem.modules.purchase.PurchaseManager;
+import orderprocurementsystem.modules.finance.FinanceManager;
 
 /**
  *
@@ -62,22 +65,23 @@ public class MainSystem {
             adminManager.showAdminMenu();
         }
         case "SM" -> {
-            // Show Sales Manager menu when implemented
-            System.out.println("Coming soon");
-            
+            String salesManagerId = session.getCurrentUser().getUserId();
+            SalesManager salesManager = new SalesManager(salesManagerId);
+            salesManager.showSalesManagerMenu();
         }
         case "PM" -> {
-            // Show Purchase Manager menu when implemented
-            System.out.println("Coming soon");
+            String purchaseManagerId = session.getCurrentUser().getUserId();
+            PurchaseManager purchaseManager = new PurchaseManager(purchaseManagerId);
+            purchaseManager.showPurchaseManagerMenu();
         }
         case "IM" -> {
-            // Show Inventory Manager menu when implemented
             InventoryManager inventoryManager = new InventoryManager();
             inventoryManager.showInventoryManagerMenu();
         }
         case "FM" -> {
-            // Show Finance Manager menu when implemented
-            System.out.println("Coming soon");
+            String financeManagerId = session.getCurrentUser().getUserId();
+            FinanceManager financeManager = new FinanceManager(financeManagerId);
+            financeManager.showFinanceManagerMenu();
         }
         default -> System.out.println("Invalid");
     }

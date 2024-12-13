@@ -1,0 +1,10 @@
+[
+  {
+    "poId": "PO001",
+    "itemCode": "ITEM001",
+    "supplierCode": "SP01",
+    "quantity": 30,
+    "purchaseManagerId": "PM001",
+    "status": "paid"
+  }
+]

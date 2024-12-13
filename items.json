@@ -3,7 +3,7 @@
     "itemCode": "ITEM001",
     "itemName": "Pencil",
     "supplierCode": "SP01",
-    "currentStock": 48,
+    "currentStock": 4,
     "reorderLevel": 5,
     "unitPrice": 1.4
   }

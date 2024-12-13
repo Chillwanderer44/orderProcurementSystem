@@ -10,5 +10,29 @@
     "userName": "Amir",
     "password": "amir123",
     "userType": "IM"
+  },
+  {
+    "userId": "SM01",
+    "userName": "Aina",
+    "password": "aina123",
+    "userType": "SM"
+  },
+  {
+    "userId": "sm002",
+    "userName": "f",
+    "password": "f1",
+    "userType": "SM"
+  },
+  {
+    "userId": "PM001",
+    "userName": "pm",
+    "password": "pm123",
+    "userType": "PM"
+  },
+  {
+    "userId": "FM001",
+    "userName": "fm",
+    "password": "fm123",
+    "userType": "FM"
   }
 ]

@@ -1,0 +1,18 @@
+[
+  {
+    "prId": "PR001",
+    "itemCode": "ITEM001",
+    "quantity": 20,
+    "supplierCode": "SP01",
+    "salesManagerId": "SM01",
+    "status": "converted"
+  },
+  {
+    "prId": "PR002",
+    "itemCode": "ITEM001",
+    "quantity": 30,
+    "supplierCode": "SP01",
+    "salesManagerId": "SM01",
+    "status": "converted"
+  }
+]
